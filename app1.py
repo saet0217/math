@@ -11,11 +11,11 @@ st.write('음수?? 어렵지 않아!')
 # 여러 개의 열(문단)을 생성
 col1, col2 = st.columns(2)       
 # 왼쪽 문단 
-with col1:
+with col1:  
       st.subheader('**개념정리')
       st.write('- 양수: 0보다 큰 수')
-     st.write('- 음수: 0보다 작은 수')
-    st.write('- 양수: (+) / 음수: (-) 부호가 붙음')
+      st.write('- 음수: 0보다 작은 수')
+      st.write('- 양수: (+) / 음수: (-) 부호가 붙음')
       st.write('- 부호: (+)는 생략 가능 /(-)는 생략 불가')
 # 오른쪽 문단
 with col2:
